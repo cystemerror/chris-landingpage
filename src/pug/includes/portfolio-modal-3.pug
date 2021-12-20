@@ -1,0 +1,26 @@
+// Portfolio Modal 3
+#portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal3', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 NFT
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/nft.jpg', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Want to know what they are? How they can help you and where to get started? Look no further because Chris will help you navigate this territory! He has experience developing and consulting on projects to get them to the finish line.
+                            button.btn.btn-primary( data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Close Window

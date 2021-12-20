@@ -1,0 +1,26 @@
+// Portfolio Modal 5
+#portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal5', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Data Analytics
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/data.jpg', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Analyzing data can be tedious and overwhelming! This is why you need practice hands that have been in the weeds with data for years! Chris employees a data-science mentality when it comes to data and has mastered data manipulation techniques with some of the most advanced platforms available. No matter how big the data, he'll cut through to your needs in a heartbeat!
+                            button.btn.btn-primary( data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Close Window
